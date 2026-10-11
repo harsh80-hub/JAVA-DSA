@@ -1,27 +1,24 @@
-import java.util.*;
- public class input{
-    public static void main(String[] args ){
-    Scanner sc= new Scanner(System.in);
+void main(){
     // input only one word:-
-    /*String name=sc.next();
-    System.out.println(name);*/
+    /*String name=IO.readln();
+    IO.println(name);*/
 
     //input more than one words:-
-    /*String name=sc.nextLine();
-    System.out.println(name);*/
+    /*String name=IO.readln();
+    IO.println(name);*/
 
     //input integer values:-
-    /*int age=sc.nextInt();
-    System.out.println(age);*/
+    /*int age=Interger.parseInt(IO.readln());
+    IO.println(age);*/
 
-    //input float values:-0
-    /*float height=sc.nextFloat();
-    System.out.println(height);*/
+    //input float values:-
+    // float height=Float.parseFloat(IO.readln());
+    // IO.println(height);
 
     //take input from user and find sum of two numbers:-
-    int a=sc.nextInt();
-    int b=sc.nextInt();
-    int sum=a+b;
-    System.out.println(sum);
+   //  int a=Integer.parseInt(IO.readln("enter first number here:-"));
+   //  int b=Integer.parseInt(IO.readln("enter second number here:-"));
+   //  int sum=a+b;
+   //  IO.println(sum);
     }
- }
+ 

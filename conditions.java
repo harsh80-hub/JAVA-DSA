@@ -1,50 +1,42 @@
-import java.util.*;
-public class conditions{
-    public static void main(String[] args){
-    Scanner sc=new Scanner(System.in);
+void main(){
     
      //example 1:-(check age usin if-else statement)
-     /*int a=sc.nextInt();
+     /*int a=Integer.parseInt(IO.readln());
      if (a>=18){
-        System.out.println("Adult");
+        IO.println("Adult");
      }
      else{
-        System.out.println("Teenager");
+        IO.println("Teenager");
      } */
       
     //example 2:-(check the input number is even or odd using if-else statement):-
-    /*  int num=sc.nextInt();
+    /*  int num=Integer.parseInt(IO.readln());
     if(num%2==0){
-        System.out.println("it an even number");
+        IO.println("it an even number");
     }
     else{
-        System.out.println("its an odd number");
+        IO.println("its an odd number");
     }*/
 
     //example 3:-(using if-elseif-else ,to check more than one condition):-
-    /*int a=sc.nextInt();
-    int b=sc.nextInt();
+    /*int a=Integer.parseInt(IO.readln());
+    int b=Integer.parseInt(IO.readln());
     if (a==b){
-        System.out.println("number is equal");
+        IO.println("number is equal");
     }
         else if(a>b){
-            System.out.println("a is greater than b");
+            IO.println("a is greater than b");
         }
         else{
-            System.out.println("b is greater than a");
+            IO.println("b is greater than a");
         }*/
 
     //Switch Statement:-
-    /*int button=sc.nextInt();
-    switch(button){
-        case 1:System.out.println("hello");
-        break;
-        case 2: System.out.println("Namaste");
-        break;
-        case 3:System.out.println("Pranam");
-        break;
-        default:System.out.println("invalid input");
-    }*/
-
-    }
+    // int button=Integer.parseInt(IO.readln());
+    // switch(button){
+    //     case 1->IO.println("hello");
+    //     case 2->IO.println("Namaste");
+    //     case 3->IO.println("Pranam");
+    //     default->IO.println("invalid input");
+    // }
 }
