@@ -3,7 +3,6 @@ void main(){
 for(int counter=0;counter<=10;counter++){
     IO.println(counter);
 }
-
 // while Loop in java:-(print numbers 1 to 10)
 int counter=0;
 while(counter<=10){
@@ -43,4 +42,35 @@ do{
     count++;
 }while(count<=n);
 IO.println(sum);
- }
+
+//DSA Question:- 1st--> write an infinite loop using do while condition:-
+int i=1;
+do {
+    IO.println("hello");
+} while(i>0);
+ 
+
+//DSA Question:-2nd--> write a program to enter a numbers till the user wants and at the end it
+// should display the count of positive and negative and zeros entered:-
+int positive=0;
+int negative=0;
+int zeros=0;
+char want;
+do{
+   int n=Integer.parseInt(IO.readln("enter a number:-"));
+    if(n>0){
+        positive++;
+    }
+    else if(n<0){
+        negative++;
+    }
+    else{
+        zeros++;
+    }
+   want=IO.readln("do you wnat to add more numbers:- (y/n)-->").charAt(0);
+}while(want=='y'||want=='Y');
+
+IO.println("total positive numbers are:-"+positive);
+IO.println("total negative numbers are:-"+negative);
+IO.println("total zeros:-"+zeros);
+}
